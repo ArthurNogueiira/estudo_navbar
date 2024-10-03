@@ -226,3 +226,35 @@ footer p {
     font-weight: 200;
     font-size: 15px;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .info_contact {
+        display: inline;
+        align-items: center;
+        text-align: center;
+    }
+
+    .info_contact i {
+        margin-right: 45px;
+    }
+
+    .info-section {
+        flex-direction: column;
+    }
+
+}
