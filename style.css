@@ -227,6 +227,8 @@ footer p {
     font-size: 15px;
 }
 
+/* Responsivo */
+
 @media screen and (max-width: 768px) {
     body {
         max-width: 100%;
@@ -255,6 +257,19 @@ footer p {
 
     .info-section {
         flex-direction: column;
+    }
+
+    .cards_container, .information_card, .info-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer {
+        display: block;
+    }
+
+    .footer-info {
+        margin-bottom: 15px;
     }
 
 }
