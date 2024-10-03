@@ -1,0 +1,228 @@
+/* GoogleFonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&display=swap');
+
+:root {
+    --primary-color: #2C3E50;
+    --secondary-color: #18BC9C;
+    --hover-color: #E74C3C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "MontSerrat", sans-serif;
+}
+
+html {
+    background: linear-gradient(50deg, #2C3E50 10%, #18BC9C 50%, #E74C3C 90%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    text-align: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.logo a {
+    color: #f1f1f1;
+    transition: color 0.3s ease, transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.logo a:hover {
+    transform: scale(1.1);
+    color: var(--hover-color);
+}
+
+.logo span {
+    color: var(--hover-color);
+    transition: color 0.3s ease;
+}
+
+.logo a:hover span {
+    color: #f1f1f1;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 18px;
+    padding: 8px;
+}
+
+.menu a {
+    display: flex;
+    color: #f1f1f1;
+    font-weight: 600;
+    transition: color 0.3s ease, transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.menu a:hover {
+    transform: scale(1.08);
+    color: var(--primary-color);
+}
+
+.container {
+    display: flex;
+    gap: 25px;
+    align-items: stretch;
+}
+
+.container_text {
+    padding: 25px;
+    background: transparent;
+    border-radius: 8px;
+    color: #f1f1f1;
+    text-align: justify;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.3);
+    flex: 1;
+}
+
+.container_text h1 {
+    font-family: "Lora", sans-serif;
+    font-weight: 800;
+}
+
+.container_text p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+}
+
+.exclamation {
+    color: var(--hover-color);
+}
+
+.info_contact {
+    justify-content: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    gap: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+}
+
+.info_contact a {
+    color: #f1f1f1;
+    transition: color 0.3s ease, transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.info_contact a:hover {
+    color: var(--primary-color);
+    transform: scale(1.2);
+}
+
+.cards_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.card {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    flex: 1;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: #f1f1f1;
+    margin-bottom: 10px;
+}
+
+.card p {
+    text-align: center;
+    font-size: 1rem;
+    color: #202020;
+}
+
+.information_card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.card_information {
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    flex: 1;
+}
+
+.information_card i {
+    font-size: 50px;
+    color: #f1f1f1;
+}
+
+.information_card p {
+    font-size: 0.9rem;
+    color: #202020;
+    text-align: left;
+}
+
+.info-section {
+    display: flex;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    text-align: center;
+    color: #202020;
+    gap: 10px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.info i {
+    color: #f1f1f1;
+    font-size: 45px;
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    gap: 80px;
+    border-radius: 10px;
+}
+
+footer p {
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+    color: #f1f1f1;
+    font-weight: 200;
+    font-size: 15px;
+}
