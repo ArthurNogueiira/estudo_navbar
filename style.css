@@ -246,13 +246,14 @@ footer p {
     }
 
     .info_contact {
-        display: inline;
-        align-items: center;
         text-align: center;
+        justify-content: space-around;
+        flex-direction: row;
     }
 
     .info_contact i {
-        margin-right: 45px;
+        text-align: center;
+        gap: 25px;
     }
 
     .info-section {
