@@ -1,7 +1,5 @@
 /* GoogleFonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Lora:wght@400;700&family=Manrope:wght@200;800&display=swap');
 
 :root {
     --primary-color: #2C3E50;
@@ -174,9 +172,15 @@ header {
     flex: 1;
 }
 
+.card_information .title h3 {
+    color: #f1f1f1;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
 .information_card i {
     font-size: 50px;
-    color: #f1f1f1;
+    color: #080808;
 }
 
 .information_card p {
@@ -208,6 +212,12 @@ header {
     font-size: 45px;
 }
 
+.info h3 {
+    font-size: 20px;
+    color: #f1f1f1;
+    margin-bottom: 10px;
+}
+
 footer {
     justify-content: center;
     display: flex;
@@ -227,6 +237,38 @@ footer p {
     font-size: 15px;
 }
 
+/* About */
+
+.about-page .container {
+    flex-direction: column;
+}
+
+.about-page .info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.about-page .info i {
+    font-size: 45px;
+    margin: 0;
+}
+
+.about-page .info .bi-graph-up-arrow, .bi-pc-display-horizontal{
+    order: 2;
+}
+
+.about-page .info h3 {
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.about-page .info p {
+    font-size: 13px;
+    text-align: left;
+}
 /* Responsivo */
 
 @media screen and (max-width: 768px) {
