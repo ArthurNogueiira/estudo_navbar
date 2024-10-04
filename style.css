@@ -152,6 +152,7 @@ header {
 }
 
 .card h3 {
+    font-family: "Lora", sans-serif;
     font-size: 1.5rem;
     color: #f1f1f1;
     margin-bottom: 10px;
@@ -226,6 +227,7 @@ header {
 }
 
 .info h3 {
+    font-family: "Lora", sans-serif;
     font-size: 20px;
     color: #f1f1f1;
     margin-bottom: 10px;
@@ -261,6 +263,10 @@ footer p {
     flex-direction: row;
     align-items: center;
     gap: 15px;
+}
+
+.about-page .title h3 {
+    font-family: "Lora", sans-serif;
 }
 
 .about-page .info i {
