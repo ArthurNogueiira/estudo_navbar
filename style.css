@@ -251,7 +251,8 @@ footer p {
 }
 
 .about-page .info i {
-    font-size: 45px;
+    padding: 15px;
+    font-size: 50px;
     margin: 0;
 }
 
@@ -267,7 +268,7 @@ footer p {
 
 .about-page .info p {
     font-size: 13px;
-    text-align: left;
+    text-align: justify;
 }
 /* Responsivo */
 
@@ -285,6 +286,11 @@ footer p {
     .container {
         flex-direction: column;
         gap: 20px;
+    }
+
+    .welcome_title {
+        text-align: center;
+        margin-bottom: 10px;
     }
 
     .info_contact {
