@@ -146,6 +146,11 @@ header {
     flex: 1;
 }
 
+.card p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+}
+
 .card h3 {
     font-size: 1.5rem;
     color: #f1f1f1;
@@ -156,6 +161,11 @@ header {
     text-align: center;
     font-size: 1rem;
     color: #202020;
+}
+
+.title p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
 }
 
 .information_card {
@@ -259,7 +269,8 @@ footer p {
     margin: 0;
 }
 
-.about-page .info .bi-graph-up-arrow, .bi-pc-display-horizontal{
+.about-page .info .bi-graph-up-arrow,
+.bi-pc-display-horizontal {
     order: 2;
 }
 
@@ -272,6 +283,7 @@ footer p {
     font-size: 13px;
     text-align: justify;
 }
+
 /* Responsivo */
 
 @media screen and (max-width: 768px) {
@@ -310,7 +322,9 @@ footer p {
         flex-direction: column;
     }
 
-    .cards_container, .information_card, .info-section {
+    .cards_container,
+    .information_card,
+    .info-section {
         flex-direction: column;
         gap: 20px;
     }
